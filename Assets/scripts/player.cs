@@ -10,12 +10,12 @@ public class player : MonoBehaviour
        public Text scoreText ;
     private int score = 0;
 
-    public float speed = 5; //player speed
+    public float speed = 8; //player speed
 
     private bool isGrounded = false;//بررسی اینکه به زمین برخورد داره یا نه برای  پرشش
     private Rigidbody2D rb;
 
-    public float jump = 5;// یعنی ۵ تا برو بالا برای پریدن استفاده میکنیم
+    public float jump = 8;// یعنی ۵ تا برو بالا برای پریدن استفاده میکنیم
 
 
     private Animator anim;
@@ -30,12 +30,8 @@ public class player : MonoBehaviour
 
      panel.SetActive(false);
      rb = GetComponent<Rigidbody2D>();
-
-
      anim = GetComponent<Animator>();
-
-
-    rotation = transform.eulerAngles;
+     rotation = transform.eulerAngles;
 
  }
     void Update(){
@@ -94,6 +90,10 @@ public class player : MonoBehaviour
      }
      
      private  void OnTriggerEnter2D(Collider2D other){
+
+         
+
+
         if(other.gameObject.tag == "coin"){
             gem.Play();
             Destroy(other.gameObject);

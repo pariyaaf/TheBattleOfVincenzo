@@ -1,126 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 8073 MB
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 8029 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-E:\0UN-karshenasi\2 term\ahmadpanah\unity\2020.3.30f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/0UN-karshenasi/2 term/ahmadpanah/porozeh/vincenzo2
+F:/Uniti/vincenzo2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1112
-Successfully changed project path to: E:/0UN-karshenasi/2 term/ahmadpanah/porozeh/vincenzo2
-E:/0UN-karshenasi/2 term/ahmadpanah/porozeh/vincenzo2
+1070
+Successfully changed project path to: F:/Uniti/vincenzo2
+F:/Uniti/vincenzo2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 246.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path E:/0UN-karshenasi/2 term/ahmadpanah/unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/0UN-karshenasi/2 term/ahmadpanah/porozeh/vincenzo2/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Uniti/vincenzo2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     4055 MB
-    Driver:   27.21.14.5167
+    VRAM:     3962 MB
+    Driver:   30.0.15.1169
 Initialize mono
-Mono path[0] = 'E:/0UN-karshenasi/2 term/ahmadpanah/unity/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'E:/0UN-karshenasi/2 term/ahmadpanah/unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/0UN-karshenasi/2 term/ahmadpanah/unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/0UN-karshenasi/2 term/ahmadpanah/unity/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/0UN-karshenasi/2 term/ahmadpanah/unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007719 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002241 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 241.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.140 seconds
+- Completed reload, in  0.826 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2141ms)
-		BeginReloadAssembly (246ms)
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1616ms)
-			LoadAssemblies (242ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (425ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (116ms)
-			SetupLoadedEditorAssemblies (704ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (242ms)
-				BeforeProcessingInitializeOnLoad (28ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007657 seconds.
+Registered in 0.003360 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 129.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 111.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.514 seconds
+- Completed reload, in  1.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3516ms)
-		BeginReloadAssembly (475ms)
+	ReloadAssembly (1561ms)
+		BeginReloadAssembly (214ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (2850ms)
-			LoadAssemblies (316ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (908ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (152ms)
-			SetupLoadedEditorAssemblies (1092ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (528ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (721ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.5 MB.
-System memory in use after: 101.5 MB.
+Unloading 2349 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2779.
-Total: 9.553100 ms (FindLiveObjects: 0.450100 ms CreateObjectMapping: 0.300900 ms MarkObjects: 8.427600 ms  DeleteObjects: 0.372300 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2781.
+Total: 3.904100 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.138500 ms MarkObjects: 3.378700 ms  DeleteObjects: 0.151300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,11 +126,1537 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/scripts/vincenzo.cs
-  artifactKey: Guid(dd4b9cc5ac081cc4187edbd789df9a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/vincenzo.cs using Guid(dd4b9cc5ac081cc4187edbd789df9a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da989f391ed5676d0cb2026b8e7398d7') in 0.189919 seconds 
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.009811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a76a916af97f90080f91d8f69f470f2') in 0.060351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.525216 seconds.
+  path: Assets/Characters/hero_29
+  artifactKey: Guid(9ba0c9e44f8e2414a98ed89d952106f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_29 using Guid(9ba0c9e44f8e2414a98ed89d952106f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb386c31123160ba573ea1c09a235aa') in 0.007375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.389635 seconds.
+  path: Assets/Characters/hero_3
+  artifactKey: Guid(3a387b8bef546b34088ccce8a0b7bb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_3 using Guid(3a387b8bef546b34088ccce8a0b7bb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade3a8baa6240f68af6109577b3271fa') in 0.015529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.792075 seconds.
+  path: Assets/Characters/hero_28
+  artifactKey: Guid(6f4472eaca4eb9e4cae93628d1bd3fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28 using Guid(6f4472eaca4eb9e4cae93628d1bd3fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684865dd569e19ef548996389d4e98b0') in 0.006200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.849073 seconds.
+  path: Assets/Characters/hero_28/female
+  artifactKey: Guid(dd6917fc0312fc74bb2bc931580a7926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female using Guid(dd6917fc0312fc74bb2bc931580a7926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26b46b3cc256a73d2cbb2ca4c6801e0') in 0.008809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.768174 seconds.
+  path: Assets/Characters/hero_28/female/1_idle
+  artifactKey: Guid(ac081c4d4073dcf41b8badce9ff6aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle using Guid(ac081c4d4073dcf41b8badce9ff6aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676172920757f4bbf932936c3776086') in 0.007944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093714 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/1.png
+  artifactKey: Guid(e7d2c3a25b71c6644b61fc25a6c62995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/1.png using Guid(e7d2c3a25b71c6644b61fc25a6c62995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584f7a7d7ed747f02b077efa349f33c8') in 0.284149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/12.png
+  artifactKey: Guid(73a9898eb1a11bc42a9d1649a6a5b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/12.png using Guid(73a9898eb1a11bc42a9d1649a6a5b30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8269094c831999436fda317a467236') in 0.134821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/2.png
+  artifactKey: Guid(2272a47d4dec6b74aa92a362899e3ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/2.png using Guid(2272a47d4dec6b74aa92a362899e3ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2923306cf2f4784928d6a962fe42daa5') in 0.084134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/7.png
+  artifactKey: Guid(2854dc80d542fba4e86a62bc8fa4f60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/7.png using Guid(2854dc80d542fba4e86a62bc8fa4f60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e20fa2bbec41050e55394309122453') in 0.085690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/3.png
+  artifactKey: Guid(a1dda0c65dc9a3a4ea2f19497288acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/3.png using Guid(a1dda0c65dc9a3a4ea2f19497288acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d864c9311b370d48b5796fde9fb50d2') in 0.107898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/11.png
+  artifactKey: Guid(3384e3226337aec4cbf6c0abbc2bcac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/11.png using Guid(3384e3226337aec4cbf6c0abbc2bcac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61532cb6c20ed9eae644d9cf9bd18fc9') in 0.104040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/6.png
+  artifactKey: Guid(28b5ebc5dd93346419d18c8ad1e2e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/6.png using Guid(28b5ebc5dd93346419d18c8ad1e2e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818ca19b5b4c92c2e495c15871b496d9') in 0.077959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/10.png
+  artifactKey: Guid(922a6c65c5e9fa14dbac800f061e9069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/10.png using Guid(922a6c65c5e9fa14dbac800f061e9069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a4b920e43cd14a16451ad3ecc3131e') in 0.091560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/5.png
+  artifactKey: Guid(e5b357a045889524083945ac10faebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/5.png using Guid(e5b357a045889524083945ac10faebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcb5da34d249302e1c83c8eb55e7ac0') in 0.069824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/14.png
+  artifactKey: Guid(4d62fb8f42401b344b28bdfd0eb599c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/14.png using Guid(4d62fb8f42401b344b28bdfd0eb599c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f9666cc19ff6c546bd32a2b6496f9d') in 0.082272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/16.png
+  artifactKey: Guid(0ec652d4db1778e48abe49964620f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/16.png using Guid(0ec652d4db1778e48abe49964620f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e26a99172f5cbc7d35cd0c76f6732e4') in 0.093662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/8.png
+  artifactKey: Guid(ca087959f6ab9a04b9908c2b50968ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/8.png using Guid(ca087959f6ab9a04b9908c2b50968ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfc5500e918dfd41fa388b86d30cee8') in 0.146523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/4.png
+  artifactKey: Guid(bab71c46a0a86f440a753df92d59ed33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/4.png using Guid(bab71c46a0a86f440a753df92d59ed33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6970c215bd99dcc3abdba64e3ee8ced2') in 0.121610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/15.png
+  artifactKey: Guid(5b88408ffc662c742b40ddc0afb76931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/15.png using Guid(5b88408ffc662c742b40ddc0afb76931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1289eb1cec43ca820f41fca200fd7f9d') in 0.081177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/9.png
+  artifactKey: Guid(2f5fbfb37787b0248bcd1478345acc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/9.png using Guid(2f5fbfb37787b0248bcd1478345acc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd8100b87ac8d22121f83b101191ed7') in 0.151089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Characters/hero_28/female/1_idle/13.png
+  artifactKey: Guid(7c3b4a9a24ca43241b8fd3cd731e3569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_28/female/1_idle/13.png using Guid(7c3b4a9a24ca43241b8fd3cd731e3569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27d339cfe9461098c31a99805c51224') in 0.128286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Characters/hero_23
+  artifactKey: Guid(f14035376995f7a4982b048d2e049403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23 using Guid(f14035376995f7a4982b048d2e049403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87e33eba5a438fff836bf64eb4e2bd8') in 0.020547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596165 seconds.
+  path: Assets/Characters/hero_23/female
+  artifactKey: Guid(53f5a16b16c31b64f88aec5956582312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female using Guid(53f5a16b16c31b64f88aec5956582312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c706812b53ca1cbb6b959a6ad7a23b7') in 0.002037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.765099 seconds.
+  path: Assets/Characters/hero_23/female/1_idle
+  artifactKey: Guid(d5e44faa791aa5944bbe98b05dc58257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle using Guid(d5e44faa791aa5944bbe98b05dc58257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee219587dd81f330410a982e3345d8') in 0.001843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058398 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/1.png
+  artifactKey: Guid(ec78e1b6469435846b2eda50858b4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/1.png using Guid(ec78e1b6469435846b2eda50858b4700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e267a6b5f3b338009732af3883abd02') in 0.092963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/7.png
+  artifactKey: Guid(f7949e54321d465419c6d1fec55cb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/7.png using Guid(f7949e54321d465419c6d1fec55cb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba3faf4d92d17c8005ee66620e5d6c') in 0.068761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/4.png
+  artifactKey: Guid(eb6c4bbf2060f7649b3b0d9adff30894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/4.png using Guid(eb6c4bbf2060f7649b3b0d9adff30894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8869e52cb8cc73e0464bedd3b4af40d9') in 0.113256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/12.png
+  artifactKey: Guid(d23f852c8c2954d4ab66a3436bba9227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/12.png using Guid(d23f852c8c2954d4ab66a3436bba9227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1b00dc8b40340030dd2bc3460de002') in 0.052053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/14.png
+  artifactKey: Guid(af01924cc1c863a41bd255bf648e2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/14.png using Guid(af01924cc1c863a41bd255bf648e2315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211836d050125e7ee24b13ca9deb19e5') in 0.069142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/11.png
+  artifactKey: Guid(d724736d78654554ea99c8f04c0ebf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/11.png using Guid(d724736d78654554ea99c8f04c0ebf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb01f9f0039c8ecff84a571a1138141e') in 0.085735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/9.png
+  artifactKey: Guid(328b4160879a9df4180cd65f49e47809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/9.png using Guid(328b4160879a9df4180cd65f49e47809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df7e4f30bb2ae0cdea9406773057e45') in 0.105370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/13.png
+  artifactKey: Guid(824d4c2f7a96dde458c7d7f6d335224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/13.png using Guid(824d4c2f7a96dde458c7d7f6d335224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531f0fdd8b966063b5f414c3ebff4d4b') in 0.108395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/2.png
+  artifactKey: Guid(98837fc065feb5747a6e934ed5ab7b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/2.png using Guid(98837fc065feb5747a6e934ed5ab7b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e346782628a39bfc296987e0b405a81') in 0.084228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/15.png
+  artifactKey: Guid(d05d066f5fdec6e46bfe0bc682d98d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/15.png using Guid(d05d066f5fdec6e46bfe0bc682d98d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef5ae53fd97bbda6a4cc65dbb55ef48') in 0.139552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/16.png
+  artifactKey: Guid(2bb66dac78595044eaf53b862e9df56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/16.png using Guid(2bb66dac78595044eaf53b862e9df56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659422140d047cceb329731a76a28467') in 0.132031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/3.png
+  artifactKey: Guid(1149e3020c8daab40959855fc5c1db07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/3.png using Guid(1149e3020c8daab40959855fc5c1db07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3317854f2311e976270dc43e1ac7a94d') in 0.057270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/6.png
+  artifactKey: Guid(d695a0d6ef40eb047a2449f7b76df149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/6.png using Guid(d695a0d6ef40eb047a2449f7b76df149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3928667f237189aad2b80d62117aaca7') in 0.125716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/10.png
+  artifactKey: Guid(6e1e4417270cc4347af778306e17ca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/10.png using Guid(6e1e4417270cc4347af778306e17ca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b32203ab6a7d1492a33c6b392146a7') in 0.117143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/8.png
+  artifactKey: Guid(7d550e7da2accc442ad84007c4c63ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/8.png using Guid(7d550e7da2accc442ad84007c4c63ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8190dd2a1c1c045f4fe0e8d3e9d6e93a') in 0.110558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Characters/hero_23/female/1_idle/5.png
+  artifactKey: Guid(b13ff29da7308d547b3bdb8a6bf590fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/1_idle/5.png using Guid(b13ff29da7308d547b3bdb8a6bf590fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095625e5166b5bee06e0abffd559dbad') in 0.113286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.487099 seconds.
+  path: Assets/Characters/hero_23/female/2_walk
+  artifactKey: Guid(efcaf3a6e67ab954c8ccf3d36aedd9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_23/female/2_walk using Guid(efcaf3a6e67ab954c8ccf3d36aedd9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eecb59e60d8b2a73f36f72acec5295') in 0.006394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.342119 seconds.
+  path: Assets/Characters/hero_24
+  artifactKey: Guid(29b908c2634e55a48ae998c67a56aac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24 using Guid(29b908c2634e55a48ae998c67a56aac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b0d2912863af32ec1c9b8775de6b9d') in 0.008431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.054829 seconds.
+  path: Assets/Characters/hero_24/female
+  artifactKey: Guid(9fd36ef9114017b4e9e3988743437020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female using Guid(9fd36ef9114017b4e9e3988743437020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2cad806d39028427f30efb596653fd') in 0.002947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.736605 seconds.
+  path: Assets/Characters/hero_24/female/1_idle
+  artifactKey: Guid(a7745aeb31c4f4b4981843d18d8fea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle using Guid(a7745aeb31c4f4b4981843d18d8fea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250ddf3b89f1714f9b754238f6f6ba80') in 0.004503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055620 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/1.png
+  artifactKey: Guid(eab58ec3efe61a749abdff121efe8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/1.png using Guid(eab58ec3efe61a749abdff121efe8ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4783136c37c447669c3bed09a921f7') in 0.078166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/4.png
+  artifactKey: Guid(5dfdca7e28d21574d8eef8640a68a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/4.png using Guid(5dfdca7e28d21574d8eef8640a68a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f6a7e338f5439763a3505b1636fe8c') in 0.092355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/7.png
+  artifactKey: Guid(9b2eec60227ef1b41a977e5ecb77d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/7.png using Guid(9b2eec60227ef1b41a977e5ecb77d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd569584c17ae11c6cbf3d1689f2b849') in 0.128413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/11.png
+  artifactKey: Guid(1cbe5031b655f354cbb2b10f3e50cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/11.png using Guid(1cbe5031b655f354cbb2b10f3e50cb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3ebd16773b32693c3998e0e5e63ed7') in 0.081554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/9.png
+  artifactKey: Guid(9bc7f374596b31c439409c969787be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/9.png using Guid(9bc7f374596b31c439409c969787be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4c6743ee86cee5b8ac7ebcce2ba6a') in 0.110720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/3.png
+  artifactKey: Guid(a290a70e06fe8bb40bfcbb5c70089a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/3.png using Guid(a290a70e06fe8bb40bfcbb5c70089a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b189c2a4a514aa6558446b1d376660') in 0.148148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/5.png
+  artifactKey: Guid(2df353d7afc13ea478760c07905e3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/5.png using Guid(2df353d7afc13ea478760c07905e3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2297b3b244f6f9f7a34d9f8760f3cdee') in 0.128392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/8.png
+  artifactKey: Guid(348ccb60e062f44418f8856b957bb0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/8.png using Guid(348ccb60e062f44418f8856b957bb0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26061657a0953e9febc3102b6492141') in 0.066880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/2.png
+  artifactKey: Guid(0dbcf1a24c0edea49a1a1f5b16708d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/2.png using Guid(0dbcf1a24c0edea49a1a1f5b16708d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c086c2d60bee5e38c732628f92cb7f') in 0.047612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/10.png
+  artifactKey: Guid(7e657630e41ec914caf32d79358cf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/10.png using Guid(7e657630e41ec914caf32d79358cf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a690c69037d8254946f25eb951d65a05') in 0.125220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/13.png
+  artifactKey: Guid(0af87b2ebb09c3c4eaf631c1057b8d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/13.png using Guid(0af87b2ebb09c3c4eaf631c1057b8d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cff813d404dfd2475f4d102e22bd83') in 0.117033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/14.png
+  artifactKey: Guid(f49b376c5d0fba340bc2b71b3f3c1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/14.png using Guid(f49b376c5d0fba340bc2b71b3f3c1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2e6da22ce8593f45061498ef3a7116') in 0.109400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/15.png
+  artifactKey: Guid(fcf4ca0b787730042843ec04e9ade50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/15.png using Guid(fcf4ca0b787730042843ec04e9ade50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd118756f046247b67f24f44f90359d67') in 0.140763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/12.png
+  artifactKey: Guid(3c78180020cd56c4db289083ec610f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/12.png using Guid(3c78180020cd56c4db289083ec610f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74821ecb1b0c97cf6cbd7f7b8cc15cc9') in 0.168646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/6.png
+  artifactKey: Guid(1bc33a934f12f2040b502d2835683ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/6.png using Guid(1bc33a934f12f2040b502d2835683ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce61effc4c2fb92aff484de0e60c2148') in 0.109002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Characters/hero_24/female/1_idle/16.png
+  artifactKey: Guid(b64c428a588a94c45b96c6e8e4296e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_24/female/1_idle/16.png using Guid(b64c428a588a94c45b96c6e8e4296e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c2efdcb36d0c8a903a5d80e329d5de') in 0.105739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.924959 seconds.
+  path: Assets/Characters/hero_25
+  artifactKey: Guid(e58bee63a3fa9f849ab59dc28412fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25 using Guid(e58bee63a3fa9f849ab59dc28412fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3a66bae8249e2b5051efb01dc8daa') in 0.007732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007194 seconds.
+  path: Assets/Characters/hero_25/female
+  artifactKey: Guid(c84909b8d6532e046bbad5df3582dea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female using Guid(c84909b8d6532e046bbad5df3582dea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4058027c006e0716922d10d11e9bf7b5') in 0.002815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.795242 seconds.
+  path: Assets/Characters/hero_25/female/1_idle
+  artifactKey: Guid(3425a3a2e2c826d4c83dea388a3e065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle using Guid(3425a3a2e2c826d4c83dea388a3e065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a9248f4981fd432075d906145a14b') in 0.003676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.137172 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/1.png
+  artifactKey: Guid(f4b978821a1ff4548bc54097505dc6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/1.png using Guid(f4b978821a1ff4548bc54097505dc6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f205e48e2635c2823130b6918cd1871') in 0.102525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/5.png
+  artifactKey: Guid(de1e18e7bc5d8b34487dfefc439a8e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/5.png using Guid(de1e18e7bc5d8b34487dfefc439a8e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53aa9d7faaa1739336c7d28ee6a3b10c') in 0.167115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/6.png
+  artifactKey: Guid(986847329bc6efc428fefd7872cc514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/6.png using Guid(986847329bc6efc428fefd7872cc514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d70afa8c50ed44fc075d5dd99e5179') in 0.110960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/7.png
+  artifactKey: Guid(60a1d8af9acb548429918d996c5016b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/7.png using Guid(60a1d8af9acb548429918d996c5016b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff4a8381f50d4ef041bcdc9d837ea2d') in 0.126746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/11.png
+  artifactKey: Guid(75bb35cd3f67fc54b9bd2d2124a73e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/11.png using Guid(75bb35cd3f67fc54b9bd2d2124a73e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee37400f23cf347fb99fd820cddd129') in 0.083896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/4.png
+  artifactKey: Guid(6e3263dcd2f36854e96b0f7277306617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/4.png using Guid(6e3263dcd2f36854e96b0f7277306617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282a9d65c5e0f2a5df7f59835107e125') in 0.132832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/2.png
+  artifactKey: Guid(06b4ac4859b6c41468d01a9a1419a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/2.png using Guid(06b4ac4859b6c41468d01a9a1419a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa938b5417dae2232dad2f77bac8f1b') in 0.104845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/12.png
+  artifactKey: Guid(6c92fc7597ef048419ebc212d4185c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/12.png using Guid(6c92fc7597ef048419ebc212d4185c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaec1e39e6d4710b16259ffa8bc891a') in 0.112543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/16.png
+  artifactKey: Guid(c09ad6f04164c78448c5ba95d2c5dfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/16.png using Guid(c09ad6f04164c78448c5ba95d2c5dfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16aa5ec65104360d009f9c1cee2ad3f2') in 0.110237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/14.png
+  artifactKey: Guid(62ff7d70c80bbd44c99c2fa0858b18ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/14.png using Guid(62ff7d70c80bbd44c99c2fa0858b18ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901c2d0067fce3b6a9eaf0156cafa142') in 0.112396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/15.png
+  artifactKey: Guid(4eb83fab814c08b459e33f152e9e1cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/15.png using Guid(4eb83fab814c08b459e33f152e9e1cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e857ebe9eaf763ca8d523a1de250a76') in 0.142177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/8.png
+  artifactKey: Guid(d70652cf1e66f2e4cb7514d31b7447e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/8.png using Guid(d70652cf1e66f2e4cb7514d31b7447e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecc903e7a1cde95869e0d56d92010f7') in 0.124010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/9.png
+  artifactKey: Guid(61d6b588318035f4d9f6b198815ef8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/9.png using Guid(61d6b588318035f4d9f6b198815ef8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f17e7f43967148ffc885e4e21da6f0') in 0.128694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/3.png
+  artifactKey: Guid(49700b6607285d74ebd865e210297f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/3.png using Guid(49700b6607285d74ebd865e210297f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b60f1f65a0cdb0cb0fde5037313f52b') in 0.117957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/13.png
+  artifactKey: Guid(ec8c458b10f4d5f458488c730dd4eda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/13.png using Guid(ec8c458b10f4d5f458488c730dd4eda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302bfdd64feba2d22f3d0576c6ed7925') in 0.110012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Characters/hero_25/female/1_idle/10.png
+  artifactKey: Guid(7a80ee62b742300488f96feae7cdc77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_25/female/1_idle/10.png using Guid(7a80ee62b742300488f96feae7cdc77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53650218d34c652b49e6f3560c7df158') in 0.100089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.264227 seconds.
+  path: Assets/Characters/hero_26
+  artifactKey: Guid(747655d7fe807f34bb6cb88b5e0907ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26 using Guid(747655d7fe807f34bb6cb88b5e0907ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1c3e2497f0f1c228abe5e15d70241a') in 0.009302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.026958 seconds.
+  path: Assets/Characters/hero_26/female
+  artifactKey: Guid(515acd7c579af554ab8ea4bbb2a5de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female using Guid(515acd7c579af554ab8ea4bbb2a5de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b83b332d1c2d49c30a4eff8f6c1193') in 0.002581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497869 seconds.
+  path: Assets/Characters/hero_26/female/1_idle
+  artifactKey: Guid(3c21ef6c5edbc7e439909445ba9df143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle using Guid(3c21ef6c5edbc7e439909445ba9df143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777818bfeec1091096cdd9364e7733ad') in 0.002025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/12.png
+  artifactKey: Guid(62cf5f125bf3b8e499ac328cc32c1e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/12.png using Guid(62cf5f125bf3b8e499ac328cc32c1e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe9a23ea743724077ecaed5fdf952e8') in 0.122813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/15.png
+  artifactKey: Guid(2a84ba800e0d09549b4b8c125eb51e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/15.png using Guid(2a84ba800e0d09549b4b8c125eb51e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c21973271b88ca7bb4e32f2cd42ff8') in 0.124169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/10.png
+  artifactKey: Guid(4ad05540acea3374788e0bfc8c9efda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/10.png using Guid(4ad05540acea3374788e0bfc8c9efda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158fc0480b4037092d3adad17350922e') in 0.104439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/1.png
+  artifactKey: Guid(80f76397b96482947846f900f52184d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/1.png using Guid(80f76397b96482947846f900f52184d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692893da2df48a36776df333eefc23ed') in 0.116263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/2.png
+  artifactKey: Guid(9748f3b2ef2c7aa4ba1d5f9e05f1c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/2.png using Guid(9748f3b2ef2c7aa4ba1d5f9e05f1c6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b591083afd73ee100e6bc08981c504ab') in 0.149558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/9.png
+  artifactKey: Guid(84ba3302ef6509c489e361d171c4875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/9.png using Guid(84ba3302ef6509c489e361d171c4875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73821cac1b72c41f19f9854352bc5eaa') in 0.104869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/14.png
+  artifactKey: Guid(92210803557928246bf0c7b7507cd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/14.png using Guid(92210803557928246bf0c7b7507cd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408ce49febdef157aee66373c1b428fd') in 0.152698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/7.png
+  artifactKey: Guid(1dbc89433f682204fa2559e43a0af7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/7.png using Guid(1dbc89433f682204fa2559e43a0af7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8a1c912a7826c3c335e34772075f5e') in 0.095166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/5.png
+  artifactKey: Guid(a0f909adc1deff34c89307baf71ebe5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/5.png using Guid(a0f909adc1deff34c89307baf71ebe5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abad3d6080fea0effadea91dd923c1d') in 0.117655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/11.png
+  artifactKey: Guid(b63264e60064f4e4d8cb20ec99a0bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/11.png using Guid(b63264e60064f4e4d8cb20ec99a0bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bb95310c0ffab8fe5c60c431f175e7') in 0.117125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/8.png
+  artifactKey: Guid(243771ac6d02a2b47a4fb5df098bb67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/8.png using Guid(243771ac6d02a2b47a4fb5df098bb67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae4232c603a317f60e22891d8c81a4a') in 0.107480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/3.png
+  artifactKey: Guid(af6c35f7a23c0cd499b2d2774c2dd638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/3.png using Guid(af6c35f7a23c0cd499b2d2774c2dd638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a9570b1d652960a412ce84612e6c84') in 0.114987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/6.png
+  artifactKey: Guid(9d84481aba9a78c48b2ed37ceaa7cfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/6.png using Guid(9d84481aba9a78c48b2ed37ceaa7cfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6024f485733cc32fbb3c973c6f8f53f8') in 0.166549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/4.png
+  artifactKey: Guid(e1f4b03cec910c947b710fb7c22aa059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/4.png using Guid(e1f4b03cec910c947b710fb7c22aa059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1818fb855e6b528f4b2760e3a6c970bb') in 0.199513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/13.png
+  artifactKey: Guid(6570c3fb299a5cb4793de5244fcc52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/13.png using Guid(6570c3fb299a5cb4793de5244fcc52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b024392dda88634f7b733d7cd27fdb7') in 0.072719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Characters/hero_26/female/1_idle/16.png
+  artifactKey: Guid(9468a9895b6cc2a42810eac95577d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_26/female/1_idle/16.png using Guid(9468a9895b6cc2a42810eac95577d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515ab83cb4fd8027a7b359885f461a80') in 0.073668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.473086 seconds.
+  path: Assets/Characters/hero_27
+  artifactKey: Guid(1d6ff30fc455e8e4b99aa4c0ced720cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27 using Guid(1d6ff30fc455e8e4b99aa4c0ced720cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08005676d8a63cc36c7429caf4cb94ab') in 0.007682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.693948 seconds.
+  path: Assets/Characters/hero_27/female
+  artifactKey: Guid(2da3d0f7d2af53b4ba05e032e119efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female using Guid(2da3d0f7d2af53b4ba05e032e119efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572060de38156e67923aabaf064e4d90') in 0.045708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.623637 seconds.
+  path: Assets/Characters/hero_27/female/1_idle
+  artifactKey: Guid(2a864c0f7ceb98d428710b395ba9de65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle using Guid(2a864c0f7ceb98d428710b395ba9de65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df6d82af3ed31e510baf1547280792a') in 0.002293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/9.png
+  artifactKey: Guid(6e2371c2d2194d64b9cd63f6a9877eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/9.png using Guid(6e2371c2d2194d64b9cd63f6a9877eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbc2965fbdb23ec5a39d139224f90c4') in 0.107286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/3.png
+  artifactKey: Guid(47e32986d7063e04c92505ac84ae8c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/3.png using Guid(47e32986d7063e04c92505ac84ae8c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9789bccce14613dd1201a9277c2c324') in 0.066495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/4.png
+  artifactKey: Guid(79bc78280129d5241a4de5ea7a0df04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/4.png using Guid(79bc78280129d5241a4de5ea7a0df04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5e08fa39965cac3ace57dcaef7eabb') in 0.126484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/16.png
+  artifactKey: Guid(c4f0481d5741cc040bbf346a9d335a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/16.png using Guid(c4f0481d5741cc040bbf346a9d335a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef7bc712e9b670a18f66bce9e2907b3') in 0.096638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/8.png
+  artifactKey: Guid(3388bab1e283d03428a0309a382f01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/8.png using Guid(3388bab1e283d03428a0309a382f01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90508b07c4e2bf6aa10f8394ffc8d0e') in 0.086846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/11.png
+  artifactKey: Guid(f1c31ac9c665d2a45a25036760a64080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/11.png using Guid(f1c31ac9c665d2a45a25036760a64080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adf50ccdca4bc539199ad3f1859ef47') in 0.143895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/12.png
+  artifactKey: Guid(0dc7fb749fd814c419c3f50fe37af295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/12.png using Guid(0dc7fb749fd814c419c3f50fe37af295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cf53fdb6af592dedd875685cea060b') in 0.106127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/15.png
+  artifactKey: Guid(1459c2f0dda661b4d9f0b6c849a4a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/15.png using Guid(1459c2f0dda661b4d9f0b6c849a4a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5567ca813a2922bcc619e3d7e8fb8c7e') in 0.111915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/5.png
+  artifactKey: Guid(ce4e660c0bbd40f4081393a80e0e0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/5.png using Guid(ce4e660c0bbd40f4081393a80e0e0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaad0bfba5b8925e9eb4f2df3d3976d') in 0.073725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/2.png
+  artifactKey: Guid(4d5ea7c443d2f5441aa04e2eff00526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/2.png using Guid(4d5ea7c443d2f5441aa04e2eff00526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4c8f557b15a91c474e838163b3e13a') in 0.077157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/6.png
+  artifactKey: Guid(cbd82bd5f291eab49a2c2b17016254f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/6.png using Guid(cbd82bd5f291eab49a2c2b17016254f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eb38deb8e3d336f5605acdf6d68c53') in 0.056952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/10.png
+  artifactKey: Guid(ba92f95c395a46c419b3121da03f8cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/10.png using Guid(ba92f95c395a46c419b3121da03f8cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd781a8022fcad3f12d2c53f35a7ccf') in 0.070371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/1.png
+  artifactKey: Guid(53ca7d2c1d9390841b5cc27a8f4767dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/1.png using Guid(53ca7d2c1d9390841b5cc27a8f4767dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707e8b3c433e958e86a820d9b0c2c3a3') in 0.090100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/7.png
+  artifactKey: Guid(6c3cb242533475045b71096bb20639e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/7.png using Guid(6c3cb242533475045b71096bb20639e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a46d4c80afac987788a5001a05448b') in 0.087084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/14.png
+  artifactKey: Guid(5c32a7583ccecd246a73fe711222d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/14.png using Guid(5c32a7583ccecd246a73fe711222d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24da773fc5a08b17ce09b61126ba105') in 0.132751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Characters/hero_27/female/1_idle/13.png
+  artifactKey: Guid(33b6508c921a17548862fc5368bcccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_27/female/1_idle/13.png using Guid(33b6508c921a17548862fc5368bcccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38962c8e1b97df11c393e4bf9dbbb036') in 0.101886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.086356 seconds.
+  path: Assets/Characters/hero_30
+  artifactKey: Guid(3da301a73136059469d26a7961a75637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_30 using Guid(3da301a73136059469d26a7961a75637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b021f9da03dd6af2c1b9c72d7a0373c1') in 0.009146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.320353 seconds.
+  path: Assets/Characters/hero_22
+  artifactKey: Guid(40070f0f22d08cb4d9c1c9d26948c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_22 using Guid(40070f0f22d08cb4d9c1c9d26948c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8578668e3eb8eebfdcc859b504a426') in 0.008264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.441192 seconds.
+  path: Assets/Characters/hero_21
+  artifactKey: Guid(e36d7751e12b04d4d8c7a3010743f7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21 using Guid(e36d7751e12b04d4d8c7a3010743f7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aadce818b5e9f279001058d5b04def') in 0.093637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.592324 seconds.
+  path: Assets/Characters/hero_21/female
+  artifactKey: Guid(f9103e75a2a8c5e4abfb8201a626ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female using Guid(f9103e75a2a8c5e4abfb8201a626ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f0d966b9686a6ea8658b8f158ca402') in 0.003302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.333535 seconds.
+  path: Assets/Characters/hero_21/female/1_idle
+  artifactKey: Guid(1fece00c5a21d2d45b8fa646df1548b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle using Guid(1fece00c5a21d2d45b8fa646df1548b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed423e134da084572f41773841b19d6e') in 0.002286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069120 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/1.png
+  artifactKey: Guid(0fdf79b1cf3157540a5041fbf332423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/1.png using Guid(0fdf79b1cf3157540a5041fbf332423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1a51e51011e4dd062e17657cbf95be') in 0.142375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/13.png
+  artifactKey: Guid(b2ff3effbdb3d1040bfaa463b359e336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/13.png using Guid(b2ff3effbdb3d1040bfaa463b359e336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedc6370a1fcc141db4a84bf3ca3e79d') in 0.137389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/14.png
+  artifactKey: Guid(db1de25424920794f86c65251a7a5757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/14.png using Guid(db1de25424920794f86c65251a7a5757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14f4e6acc36be3e7151ca791ee469ff') in 0.100145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/12.png
+  artifactKey: Guid(26a60eb61fc2eaf43945fe8cdb4c2130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/12.png using Guid(26a60eb61fc2eaf43945fe8cdb4c2130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd959f6e8eabfd15b5d3b984649f9d5ea') in 0.101597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/8.png
+  artifactKey: Guid(4ac4b5fd21e35ae4e93af37240f7a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/8.png using Guid(4ac4b5fd21e35ae4e93af37240f7a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb8c57cd9d6646e93f2e6c1d1b039a2') in 0.056264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/10.png
+  artifactKey: Guid(f32732da1ec748240aa2f392308f8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/10.png using Guid(f32732da1ec748240aa2f392308f8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6f329bab3527f3a53e9cc1b0afaede') in 0.087818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/5.png
+  artifactKey: Guid(c3858be0a6b6e824082e1ece09d2ae7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/5.png using Guid(c3858be0a6b6e824082e1ece09d2ae7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9943fd59c7dac4b0fa4e6cd9d7e93eda') in 0.078524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/16.png
+  artifactKey: Guid(f2e5f8c4173e8824887f073a89352aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/16.png using Guid(f2e5f8c4173e8824887f073a89352aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7e540bff21155a5550bc70bf173216') in 0.093838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/9.png
+  artifactKey: Guid(0732d0317db54934793b904becfee449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/9.png using Guid(0732d0317db54934793b904becfee449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48be0d8df0eb9c22a2f7dcb39f513054') in 0.069312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/6.png
+  artifactKey: Guid(4b8e071d14649c142a2ebdf2e943ab5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/6.png using Guid(4b8e071d14649c142a2ebdf2e943ab5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8976a0f92cefb93deafe32faa263c2c') in 0.087817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/4.png
+  artifactKey: Guid(d1d380562c6fbef41b60c514caa4e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/4.png using Guid(d1d380562c6fbef41b60c514caa4e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd590fad9cf9625c242c2fe25512b7b4d') in 0.060662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/2.png
+  artifactKey: Guid(a89e1a0f558c44d498da14b12f247988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/2.png using Guid(a89e1a0f558c44d498da14b12f247988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd65fd5e06f020699a34fd08971091f') in 0.101617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/11.png
+  artifactKey: Guid(ac91ceb38dc747542aa9e67be71e5b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/11.png using Guid(ac91ceb38dc747542aa9e67be71e5b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b0fc1fb493bcb013f6fc1b8c1a7240') in 0.132403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/15.png
+  artifactKey: Guid(3c4a2626fdbe0e346942073bb817b14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/15.png using Guid(3c4a2626fdbe0e346942073bb817b14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddc86af00fe7128fd5b502549e0ff76') in 0.110085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/3.png
+  artifactKey: Guid(84da534d15c19cb4f872095aaa43f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/3.png using Guid(84da534d15c19cb4f872095aaa43f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b4fa4382f65fc91f6721aae1903dce') in 0.092340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/Characters/hero_21/female/1_idle/7.png
+  artifactKey: Guid(964f505b96fa7c74ebdc9e5a39ddd8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_21/female/1_idle/7.png using Guid(964f505b96fa7c74ebdc9e5a39ddd8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5463b0ec1367b86d98136cabd5255901') in 0.054195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.823228 seconds.
+  path: Assets/Characters/hero_20
+  artifactKey: Guid(d51be4558b66e7749aaff7b989e21fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20 using Guid(d51be4558b66e7749aaff7b989e21fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3ef1e2281b4687e8c501a6d75e7059') in 0.017265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.756263 seconds.
+  path: Assets/Characters/hero_20/female
+  artifactKey: Guid(566c725d30472024681f050792c8124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female using Guid(566c725d30472024681f050792c8124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6eb9123eac11d2b07eb6ec6d17e5a5') in 0.030941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212492 seconds.
+  path: Assets/Characters/hero_20/female/1_idle
+  artifactKey: Guid(5d80a42efb34ce948ae433f980f79b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle using Guid(5d80a42efb34ce948ae433f980f79b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc64d31e26309fd4939f14dec30dd0b') in 0.003587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197680 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/1.png
+  artifactKey: Guid(8a71674ec26508647a796b1318dae063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/1.png using Guid(8a71674ec26508647a796b1318dae063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afe32104a229faee6f3f88bd05d167') in 0.114394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/8.png
+  artifactKey: Guid(93d6e94f00e98a7499010a3aaac67d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/8.png using Guid(93d6e94f00e98a7499010a3aaac67d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b30121cc5e8dcf73fe8afe546dde22') in 0.090550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/5.png
+  artifactKey: Guid(51419e4d94e31174687c9e95b9e1eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/5.png using Guid(51419e4d94e31174687c9e95b9e1eba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665100d60a19f3e6c224c210bf971ecf') in 0.091850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/15.png
+  artifactKey: Guid(613fcc18dd8451b4db6482f0fc46077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/15.png using Guid(613fcc18dd8451b4db6482f0fc46077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb49488db42c4a85fe9315981dc02ea') in 0.112115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/13.png
+  artifactKey: Guid(b9f46f4319da51f4eb86e6ee1536585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/13.png using Guid(b9f46f4319da51f4eb86e6ee1536585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d47df0a1a374490c8da01ea6b1e3ac4') in 0.121577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/6.png
+  artifactKey: Guid(2f6c0277f1309de45baf5b240388d324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/6.png using Guid(2f6c0277f1309de45baf5b240388d324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05885317c41a98a1435aed7990aa936f') in 0.103466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/11.png
+  artifactKey: Guid(fd74af511d4cd1447a52cd2cdef14050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/11.png using Guid(fd74af511d4cd1447a52cd2cdef14050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f69b49d87e507985a8677aa5b46e98') in 0.097984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/10.png
+  artifactKey: Guid(f631d8699aac98542a2d2fc627685366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/10.png using Guid(f631d8699aac98542a2d2fc627685366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a2e1df456a971fe54bb3f9248ee98b') in 0.103644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/14.png
+  artifactKey: Guid(7d9a010659394274ca99530c6b0babb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/14.png using Guid(7d9a010659394274ca99530c6b0babb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5259ddf4f67ad7ec9fd79b2fb7b23e7d') in 0.070726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/7.png
+  artifactKey: Guid(9b8146a69a7adf8419c49cf83abde6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/7.png using Guid(9b8146a69a7adf8419c49cf83abde6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78c4712277e81c0337ff7958d5ae86a') in 0.058106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/4.png
+  artifactKey: Guid(c6dc550895164264a97b83eec4b0b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/4.png using Guid(c6dc550895164264a97b83eec4b0b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a422845fb524ee8330b4536d6e440f') in 0.045791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/16.png
+  artifactKey: Guid(4237894bf4529994aba57df3260fbe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/16.png using Guid(4237894bf4529994aba57df3260fbe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8a36b7b2b37be8efc3d971f58ec5b8') in 0.231305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/12.png
+  artifactKey: Guid(390cd8126e158fa4d9de2d2893790c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/12.png using Guid(390cd8126e158fa4d9de2d2893790c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913a8c3dd444d3d0879e29063a6acab4') in 0.091732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/3.png
+  artifactKey: Guid(214afb1d0c12d534fa1102e5d77240a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/3.png using Guid(214afb1d0c12d534fa1102e5d77240a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a6845009e093b9d5c648ec3caff820') in 0.089299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/9.png
+  artifactKey: Guid(8e98bcb5e3c3c34468517f9ee96f68be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/9.png using Guid(8e98bcb5e3c3c34468517f9ee96f68be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352d3ca38aa9d3abd2e86ccb67f69079') in 0.132084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Characters/hero_20/female/1_idle/2.png
+  artifactKey: Guid(6ee4949157d9bc046a1e27de058c27d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_20/female/1_idle/2.png using Guid(6ee4949157d9bc046a1e27de058c27d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39748159d423efc138a9ba16c1b849be') in 0.155257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Characters/hero_19
+  artifactKey: Guid(f385de5dcd966514d9820038adfd205c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19 using Guid(f385de5dcd966514d9820038adfd205c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bae47b61be475caca1f7a0d7ce7cf9') in 0.017869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.004045 seconds.
+  path: Assets/Characters/hero_19/female
+  artifactKey: Guid(282d565d7b483864197eb42d8af381b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female using Guid(282d565d7b483864197eb42d8af381b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9cdad8b14f72bdc573fbd4209989fa') in 0.002218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317554 seconds.
+  path: Assets/Characters/hero_19/female/1_idle
+  artifactKey: Guid(c8d9e3c12bf883c42822e9a10b25f28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle using Guid(c8d9e3c12bf883c42822e9a10b25f28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8c8eda3451c5bbba7f1b7ab26fc44b') in 0.005205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221649 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/1.png
+  artifactKey: Guid(c1fa53f4aa4cae646b6d639de5f4a38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/1.png using Guid(c1fa53f4aa4cae646b6d639de5f4a38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359e068cf241d86fcc71fbf829653312') in 0.105083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/10.png
+  artifactKey: Guid(1bdafa0028c402141bf1e37d01818941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/10.png using Guid(1bdafa0028c402141bf1e37d01818941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f40ab1825412a0f5c86c88f178a4c8') in 0.145484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/11.png
+  artifactKey: Guid(88551ed95e014ca45bbbfd4f4e665d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/11.png using Guid(88551ed95e014ca45bbbfd4f4e665d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fa5ada42fc55c70127823239e2418e') in 0.118633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/2.png
+  artifactKey: Guid(eba197b3451a3d842b59442403f7469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/2.png using Guid(eba197b3451a3d842b59442403f7469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cacb2327192ef728ed29fc1295312c') in 0.148950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/16.png
+  artifactKey: Guid(16ede31be253c794cb0dfa221c1b576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/16.png using Guid(16ede31be253c794cb0dfa221c1b576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe36d260e0defb5b610ae4caf1d0382') in 0.102063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/5.png
+  artifactKey: Guid(ba2c74da52b48c94aa09a051f3d6656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/5.png using Guid(ba2c74da52b48c94aa09a051f3d6656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf1a181f66fa7f31045513fb363d108') in 0.070862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/4.png
+  artifactKey: Guid(70b953de5529e224d90f72aa14991046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/4.png using Guid(70b953de5529e224d90f72aa14991046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aaaa6ffe84157ff6f29a0460fe9c81') in 0.114485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/12.png
+  artifactKey: Guid(f9543e561b1ee7c4ca49bcd0e5123d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/12.png using Guid(f9543e561b1ee7c4ca49bcd0e5123d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4178634bbd28da70c1aa0d6b41b9b818') in 0.126886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/8.png
+  artifactKey: Guid(e328810dfefb2714795c09ca7d1b824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/8.png using Guid(e328810dfefb2714795c09ca7d1b824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4c441412764f682a32d2e983395792') in 0.084439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/15.png
+  artifactKey: Guid(c76e438ea7048734b8216b1f8ca0c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/15.png using Guid(c76e438ea7048734b8216b1f8ca0c680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b80f20cb0466a31748fbb471aa00dcc') in 0.118345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/9.png
+  artifactKey: Guid(1facd2f7247e91142b00950d414f6b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/9.png using Guid(1facd2f7247e91142b00950d414f6b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc8247def961f0fe8a7978333dec905') in 0.118838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/6.png
+  artifactKey: Guid(dfc886bc84d568a478e0deed5efcaded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/6.png using Guid(dfc886bc84d568a478e0deed5efcaded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7a634340fef2860973ba7e956bd7c4') in 0.168970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/14.png
+  artifactKey: Guid(d56f6319883ce774c9422656528c71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/14.png using Guid(d56f6319883ce774c9422656528c71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8620ee3b0fa4b9eae150456c97b65b0') in 0.106999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/7.png
+  artifactKey: Guid(c079a7438cbeb5641ac1eeff0c72a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/7.png using Guid(c079a7438cbeb5641ac1eeff0c72a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774762bfba81ae252eafadc1cc505c4d') in 0.146349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/3.png
+  artifactKey: Guid(adaf8b2a3493bdc4ca4cb3c8a3c26a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/3.png using Guid(adaf8b2a3493bdc4ca4cb3c8a3c26a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eda656e3bb5c22fcc5ec09aef42ddf8') in 0.155028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Characters/hero_19/female/1_idle/13.png
+  artifactKey: Guid(dde4ada049179fd4aaafa15e57f355f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_19/female/1_idle/13.png using Guid(dde4ada049179fd4aaafa15e57f355f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f7ef31a699f289416a39850a36f4c8') in 0.125770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.307270 seconds.
+  path: Assets/Characters/hero_18
+  artifactKey: Guid(6b914821ca2bace49a6d1164d8042793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18 using Guid(6b914821ca2bace49a6d1164d8042793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7156e3fe5b077b5a49cac4ddbcf6513a') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837439 seconds.
+  path: Assets/Characters/hero_18/female
+  artifactKey: Guid(37ea27534f016bc45801b19c31ffd55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female using Guid(37ea27534f016bc45801b19c31ffd55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7646538e1085c2767f9228b8b23e82de') in 0.002003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.696292 seconds.
+  path: Assets/Characters/hero_18/female/1_idle
+  artifactKey: Guid(d805bdd908d72dd48b37d88d0adb605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle using Guid(d805bdd908d72dd48b37d88d0adb605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53099a474a995d9cf8b3893f7ad7a365') in 0.002300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.123739 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/1.png
+  artifactKey: Guid(e68b3bc3f1d5c6848a1eebe3c0a78372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/1.png using Guid(e68b3bc3f1d5c6848a1eebe3c0a78372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fdfe76110f865fffd2a410a3a80305') in 0.116396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/6.png
+  artifactKey: Guid(5e599c6d37913664cb3ad47ccdb1d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/6.png using Guid(5e599c6d37913664cb3ad47ccdb1d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3061f5337eaf83087821204afee751a1') in 0.088451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/8.png
+  artifactKey: Guid(2a1024986556924419380c3bee9c97ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/8.png using Guid(2a1024986556924419380c3bee9c97ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f685fb3bc2f190453983840f37d5efcf') in 0.193268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/13.png
+  artifactKey: Guid(6038c52970b232d498b209172ae16dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/13.png using Guid(6038c52970b232d498b209172ae16dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e86cb12e77abb80353bfc965f54d24') in 0.089676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/9.png
+  artifactKey: Guid(a4ac210b7148f974298ac79f6ac88bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/9.png using Guid(a4ac210b7148f974298ac79f6ac88bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b6044f233b50bd5e72a01a6466b236') in 0.074127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/3.png
+  artifactKey: Guid(5ec9e46f46bba7a4396c86cfd57ce8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/3.png using Guid(5ec9e46f46bba7a4396c86cfd57ce8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80890634c201159e9582b956bfe49f5') in 0.035277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/11.png
+  artifactKey: Guid(a6b54dfcc5cd8a24ead4e70f7da85038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/11.png using Guid(a6b54dfcc5cd8a24ead4e70f7da85038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdf7384f9a7eb75c07cbfa609777821') in 0.107609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/2.png
+  artifactKey: Guid(582fa82c88ce73b44a06d9165f1d9847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/2.png using Guid(582fa82c88ce73b44a06d9165f1d9847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bacd4717f5ea1313a92f087b9357501') in 0.103482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/15.png
+  artifactKey: Guid(a1525fc1f9b177447b618163427859f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/15.png using Guid(a1525fc1f9b177447b618163427859f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693dc236d4fad6e3cc1d4fd633774542') in 0.052535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/16.png
+  artifactKey: Guid(bca251ced5428e84c81df0012d0c78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/16.png using Guid(bca251ced5428e84c81df0012d0c78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4065a22c000c277481df5c3260ac1') in 0.056625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/10.png
+  artifactKey: Guid(71b7052233d1d544babedecfa8ad9874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/10.png using Guid(71b7052233d1d544babedecfa8ad9874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797779359a60d2ff1af15a08832d74ca') in 0.050755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/7.png
+  artifactKey: Guid(b697a2d6fe953764bbdb79ef4185a46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/7.png using Guid(b697a2d6fe953764bbdb79ef4185a46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd215503fc6dde080538f20a29feda5') in 0.061444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/5.png
+  artifactKey: Guid(22a54ad154de4b046ad4394b5ca8b7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/5.png using Guid(22a54ad154de4b046ad4394b5ca8b7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9bdbb783efac7ef2021775da48a993') in 0.095648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/12.png
+  artifactKey: Guid(96a9819499e71b64ab5e30bbe4629974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/12.png using Guid(96a9819499e71b64ab5e30bbe4629974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a42ff7fe03c9e09ab5cf1d1098474d') in 0.092144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/4.png
+  artifactKey: Guid(98109e069d60ef2478fda9754e7448ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/4.png using Guid(98109e069d60ef2478fda9754e7448ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d0fc172159658b7e4db951557b3f25') in 0.106945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Characters/hero_18/female/1_idle/14.png
+  artifactKey: Guid(abbab2f1ef420c74989375455e158dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_18/female/1_idle/14.png using Guid(abbab2f1ef420c74989375455e158dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e78578a2c80a0e98eafd0a60b935678') in 0.077709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.135644 seconds.
+  path: Assets/Characters/hero_2
+  artifactKey: Guid(141219e0a2b55264e8aa3c336b41c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_2 using Guid(141219e0a2b55264e8aa3c336b41c76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a2523f7567cf70ec4f4866d1666942') in 0.007895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812250 seconds.
+  path: Assets/Characters/hero_17
+  artifactKey: Guid(8ad7b69072dd07047a687425d891af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17 using Guid(8ad7b69072dd07047a687425d891af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a62740d0cda5657f576ab4eccfda8b3') in 0.044801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.584803 seconds.
+  path: Assets/Characters/hero_17/female
+  artifactKey: Guid(74351bde82142124683d06ac86e0c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female using Guid(74351bde82142124683d06ac86e0c064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21693f4d7e44210e2c85f09de46ad305') in 0.041546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.444430 seconds.
+  path: Assets/Characters/hero_17/female/1_idle
+  artifactKey: Guid(2d880389e62530d4fa2d88f59354d660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle using Guid(2d880389e62530d4fa2d88f59354d660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d48d0f0afba00a8dae1713d387ab6de') in 0.002401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076111 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/1.png
+  artifactKey: Guid(4643df9d00dd52340a3d0b0e3ce18e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/1.png using Guid(4643df9d00dd52340a3d0b0e3ce18e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ffe94dbd2a3444a4d240b1a081d89e') in 0.089249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/15.png
+  artifactKey: Guid(c115a611e6502b047ba582348749f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/15.png using Guid(c115a611e6502b047ba582348749f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a34d27ed59afbc8267f9f331e0c6e60') in 0.054100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/8.png
+  artifactKey: Guid(e1d4fee59592de346a0069e607b0d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/8.png using Guid(e1d4fee59592de346a0069e607b0d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd663a9b20d0769da20eb21ebcb6c7ea1') in 0.083234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/5.png
+  artifactKey: Guid(6dc34f9561cea724fa505c5ba6fdad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/5.png using Guid(6dc34f9561cea724fa505c5ba6fdad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141c1426411ed4f372bb40b8e014900a') in 0.095813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/13.png
+  artifactKey: Guid(d1c7b0fe4cdf3264fb7cdf83abdbdce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/13.png using Guid(d1c7b0fe4cdf3264fb7cdf83abdbdce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f65a008d63e71243639b364313aac6') in 0.078288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/3.png
+  artifactKey: Guid(b709d5068db026744a3e92bd8d418bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/3.png using Guid(b709d5068db026744a3e92bd8d418bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3122b75a9dcf0c877b1941291a3c9375') in 0.072439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/6.png
+  artifactKey: Guid(7d9fa039a1a6b194d9467d51b0b6c207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/6.png using Guid(7d9fa039a1a6b194d9467d51b0b6c207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b17a9f6f5cc05d1b73f0359cd0e927a') in 0.071881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/9.png
+  artifactKey: Guid(bd5e82a0c28819e4294c99f6a8d86107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/9.png using Guid(bd5e82a0c28819e4294c99f6a8d86107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd9ae7b59640d116573707b1bb1b8c7') in 0.061729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/7.png
+  artifactKey: Guid(db1881e6b83558b48a71cce47c07ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/7.png using Guid(db1881e6b83558b48a71cce47c07ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d13ea6844d134b4f65a8c7b3488c8dd') in 0.097386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/12.png
+  artifactKey: Guid(caa50ed2bf0f1af43bf3400c688c0cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/12.png using Guid(caa50ed2bf0f1af43bf3400c688c0cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93064fceb9c2c25eca31a61817eff093') in 0.134539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/4.png
+  artifactKey: Guid(cb16a30a022e0784f9e3fb33e2d02da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/4.png using Guid(cb16a30a022e0784f9e3fb33e2d02da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6ea4fb659ff942640ec03cac4168a8') in 0.092597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/14.png
+  artifactKey: Guid(955b9720559e3f547b0021282c7d4c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/14.png using Guid(955b9720559e3f547b0021282c7d4c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1c8d8ce396461e03b7376b52fc589d') in 0.214076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/11.png
+  artifactKey: Guid(93c881bce8970e940a92e186673c5815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/11.png using Guid(93c881bce8970e940a92e186673c5815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43defc3083bf97eb88aeb850c53fe34a') in 0.091429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/16.png
+  artifactKey: Guid(9bc5f3e5353c2474789b9b4f7ce18a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/16.png using Guid(9bc5f3e5353c2474789b9b4f7ce18a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89add3813a8474edd819be638b6c6a04') in 0.166056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/2.png
+  artifactKey: Guid(a3e2cc3ca36cebc448a0f1319bc6447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/2.png using Guid(a3e2cc3ca36cebc448a0f1319bc6447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fac6411bf3536d323bed522167aa4e') in 0.059934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Characters/hero_17/female/1_idle/10.png
+  artifactKey: Guid(996359501304eed42904482d8e4f70dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_17/female/1_idle/10.png using Guid(996359501304eed42904482d8e4f70dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73578d39cb6ea2ba842816f31d26c809') in 0.080204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.421779 seconds.
+  path: Assets/Characters/hero_16
+  artifactKey: Guid(4561429da7a5e8a4e855b9aea1b32e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16 using Guid(4561429da7a5e8a4e855b9aea1b32e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c816130a9c12d61fd24d7f513d2c32') in 0.051237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.777350 seconds.
+  path: Assets/Characters/hero_16/female
+  artifactKey: Guid(6cf81835459e6a64e8a01e1612a959fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female using Guid(6cf81835459e6a64e8a01e1612a959fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3431b5acbf0c8839ffe4bb134ea9dc2') in 0.003738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.391516 seconds.
+  path: Assets/Characters/hero_16/female/1_idle
+  artifactKey: Guid(0010de827ed373c44b9f69c4d0b28f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle using Guid(0010de827ed373c44b9f69c4d0b28f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ceaa52053c1af2af05d5191dbc2111') in 0.004923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/13.png
+  artifactKey: Guid(6d795eb42d8f0b745a0fa9cee9878ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/13.png using Guid(6d795eb42d8f0b745a0fa9cee9878ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cb74a63e078ed0e0186eeaaa173a11') in 0.139616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/3.png
+  artifactKey: Guid(2718acfb6f08afe4099d315f59d6e239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/3.png using Guid(2718acfb6f08afe4099d315f59d6e239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3212b9a6b373e02e15f9f3963315010d') in 0.125259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/15.png
+  artifactKey: Guid(1b67328f94130334cad89ded4cee8284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/15.png using Guid(1b67328f94130334cad89ded4cee8284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c403694cc3299028415bf44e958e596') in 0.115676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/2.png
+  artifactKey: Guid(5c8cee656a8a43147a6f8e77af80769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/2.png using Guid(5c8cee656a8a43147a6f8e77af80769c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de51d170d41f390949038fccd0e65e56') in 0.096954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/12.png
+  artifactKey: Guid(b9ac781021bfc9e40af21dd2007aab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/12.png using Guid(b9ac781021bfc9e40af21dd2007aab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475dadddeb8c34daf5279c15da4e1687') in 0.058670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/1.png
+  artifactKey: Guid(64ba8568a95cf1c4cb63daf06fc153f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/1.png using Guid(64ba8568a95cf1c4cb63daf06fc153f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3e903228ec985934b13d968f5b6bda') in 0.075772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/6.png
+  artifactKey: Guid(3c14e69f96ff7724d903b29d4797ee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/6.png using Guid(3c14e69f96ff7724d903b29d4797ee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0a196997271ba3b4e5113a1670981a') in 0.083165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/5.png
+  artifactKey: Guid(89cefbaeda637a346a64ff573164e324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/5.png using Guid(89cefbaeda637a346a64ff573164e324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336367195e6ff266cb417531ca2f906b') in 0.068974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/4.png
+  artifactKey: Guid(212646fc9ee4bc549a87460fed31bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/4.png using Guid(212646fc9ee4bc549a87460fed31bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86cfe6163f68c9049bb51a4f7ab2eb5') in 0.053661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/11.png
+  artifactKey: Guid(2d675b10c71727f499b9bba856479608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/11.png using Guid(2d675b10c71727f499b9bba856479608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcabf7dd50c7a4bc78456cc00176f7f') in 0.073547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/8.png
+  artifactKey: Guid(b84b0b7d266f5a34ca4db9c4b7792ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/8.png using Guid(b84b0b7d266f5a34ca4db9c4b7792ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59443fe43eac45f14825ec7993c9e765') in 0.088816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/9.png
+  artifactKey: Guid(9912eefec12c41240ae277d12aa4c1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/9.png using Guid(9912eefec12c41240ae277d12aa4c1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd4ab89cd7e662ba7025ed327b44b11') in 0.081984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/7.png
+  artifactKey: Guid(0fbcb7084fc75fa4789da55fb35c3ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/7.png using Guid(0fbcb7084fc75fa4789da55fb35c3ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bccb40b7ab8cb9272a4dcabec1c18a4') in 0.130735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/14.png
+  artifactKey: Guid(de9c6e25f9cfcff44b6f141e7576dcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/14.png using Guid(de9c6e25f9cfcff44b6f141e7576dcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aeecd5ce1090e06a3d7dc5423f97972') in 0.099897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/10.png
+  artifactKey: Guid(f49b5b7609cdb6444935c47b2ecb5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/10.png using Guid(f49b5b7609cdb6444935c47b2ecb5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088030aca3cf841e6801a97d56562d81') in 0.157167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/Characters/hero_16/female/1_idle/16.png
+  artifactKey: Guid(0d6eab6df91b6dc4ca7d8e49a248095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_16/female/1_idle/16.png using Guid(0d6eab6df91b6dc4ca7d8e49a248095f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e58220d156168bc8befd31f0ebdcf') in 0.121257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.326164 seconds.
+  path: Assets/Characters/hero_14
+  artifactKey: Guid(936dff8dd3168764abb9a6ed18567858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14 using Guid(936dff8dd3168764abb9a6ed18567858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b399459d7fc4a35e4bcf2c0807f63bc2') in 0.037680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.618654 seconds.
+  path: Assets/Characters/hero_14/female
+  artifactKey: Guid(b38324974b174a94f8d336f9b00b907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female using Guid(b38324974b174a94f8d336f9b00b907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801c97f4f21a6980e5dac84cd7120677') in 0.005423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.646020 seconds.
+  path: Assets/Characters/hero_14/female/1_idle
+  artifactKey: Guid(fbe230a0d8c10a14da031c5396a88b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle using Guid(fbe230a0d8c10a14da031c5396a88b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a9f0a0be5b660a9680a718ddb20ca8') in 0.002937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030831 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/1.png
+  artifactKey: Guid(26834ae67da1f1942a11d4fd89fc8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/1.png using Guid(26834ae67da1f1942a11d4fd89fc8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c351d41c7f4523d179d06a5a18cd75') in 0.089919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/10.png
+  artifactKey: Guid(70f25e8047751e74fbf086f97af0884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/10.png using Guid(70f25e8047751e74fbf086f97af0884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67837ac4c99c91f6f6a22ac65313dd6') in 0.063161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/4.png
+  artifactKey: Guid(8a5788dfe3350bf4c9ff5df88bee0277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/4.png using Guid(8a5788dfe3350bf4c9ff5df88bee0277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b2d49135751fac0e7d20d4a3b8a17f') in 0.071440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/12.png
+  artifactKey: Guid(2952a20ea92a00a44beefbbf39158e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/12.png using Guid(2952a20ea92a00a44beefbbf39158e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b806501b7ef8da1eea683ae16a2abf31') in 0.062016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/8.png
+  artifactKey: Guid(f4b42348f1d580145b4c27e7a87a4a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/8.png using Guid(f4b42348f1d580145b4c27e7a87a4a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351d1842cb91bc0e578aba610feb605c') in 0.111728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/16.png
+  artifactKey: Guid(7877bc70d5f269b418b36921f4717e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/16.png using Guid(7877bc70d5f269b418b36921f4717e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df11962b8ea98272cbf26c76b0cd26fa') in 0.056043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/13.png
+  artifactKey: Guid(4de41a2bb746d6045bae7b0a15bb7c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/13.png using Guid(4de41a2bb746d6045bae7b0a15bb7c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246e9225eb4b5fb327a3b9ce1130c7c3') in 0.077447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/2.png
+  artifactKey: Guid(a5ec67addfa6af847a3b0f1b49db23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/2.png using Guid(a5ec67addfa6af847a3b0f1b49db23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccdef0b641d14020f44818b30ee70dc') in 0.073144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/9.png
+  artifactKey: Guid(c00c834d4430f8d4fad8e567d22e66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/9.png using Guid(c00c834d4430f8d4fad8e567d22e66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23988717454d90c7105638ecf918e632') in 0.079659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/15.png
+  artifactKey: Guid(3b8195a6bcc1a044dacf4d590fca946e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/15.png using Guid(3b8195a6bcc1a044dacf4d590fca946e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64029556de881bff9019ab015d396690') in 0.124882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/7.png
+  artifactKey: Guid(c598db44b9a39b746a91cc70997365b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/7.png using Guid(c598db44b9a39b746a91cc70997365b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ecdec2984aa2c70bbf70ff2afb002a') in 0.135042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/11.png
+  artifactKey: Guid(1b3fd0c8715a7334babdbe0a65c5bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/11.png using Guid(1b3fd0c8715a7334babdbe0a65c5bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87980118ea2a097db4fe10f064ab1d3d') in 0.123693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/14.png
+  artifactKey: Guid(4b8b8e4171a09d146b6fe787221d5af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/14.png using Guid(4b8b8e4171a09d146b6fe787221d5af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4866f4dae8da3c478818510e7424a11') in 0.158920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/6.png
+  artifactKey: Guid(6aec85ade5ed96d4bae30eaef12f1ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/6.png using Guid(6aec85ade5ed96d4bae30eaef12f1ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0e3b81e12f20f2c94f71cc11d9dffe') in 0.092318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/3.png
+  artifactKey: Guid(10dd52837953b6b4c8ef333a4aecd1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/3.png using Guid(10dd52837953b6b4c8ef333a4aecd1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092d663735f21980003900c1a676f210') in 0.070971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Characters/hero_14/female/1_idle/5.png
+  artifactKey: Guid(cb92db37870cea348866c8cfa2606e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/hero_14/female/1_idle/5.png using Guid(cb92db37870cea348866c8cfa2606e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356bc4fb3e2420a50f53cbff952b3bb0') in 0.105165 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
