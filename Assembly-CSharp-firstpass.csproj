@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2a7bd311-5e1a-4fab-f3aa-4c77038a508f}</ProjectGuid>
+    <ProjectGuid>{52e4eb55-ebb3-f5ba-4fc0-ce49dbe1914e}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -36,26 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\FurBall2D\Scripts\DestroyCloud.cs" />
-     <Compile Include="Assets\FurBall2D\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\FurBall2D\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Free Asset - 2D Handcrafted Art\Scripts\CamerController.cs" />
-     <Compile Include="Assets\scripts\Fire.cs" />
-     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
-     <Compile Include="Assets\scripts\Dragon.cs" />
-     <Compile Include="Assets\scripts\Vincenzo.cs" />
-     <Compile Include="Assets\FurBall2D\Scripts\Instantiation.cs" />
-     <Compile Include="Assets\scripts\FEnemy.cs" />
-     <Compile Include="Assets\scripts\BlockEnemy.cs" />
-     <Compile Include="Assets\FurBall2D\Scripts\HitVelDetection.cs" />
-     <Compile Include="Assets\scripts\MainMenu.cs" />
-     <None Include="Assets\Cainos\Pixel Art Platformer - Village Props\Changelog.txt" />
-     <None Include="Assets\Dragon Warrior Files\Read Me.txt" />
-     <None Include="Assets\Free Asset - 2D Handcrafted Art\Shader\NormalMappedSprite-Animated.shader" />
-     <None Include="Assets\LightningBolt\Readme.txt" />
-     <None Include="Assets\Free Asset - 2D Handcrafted Art\Readme.txt" />
-     <None Include="Assets\Ninja Files\Read Me.txt" />
-     <None Include="Assets\Free Asset - 2D Handcrafted Art\Shader\NormalMappedTileAnimated.shader" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -721,10 +713,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{52e4eb55-ebb3-f5ba-4fc0-ce49dbe1914e}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
