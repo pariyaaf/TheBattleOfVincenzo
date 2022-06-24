@@ -48,6 +48,8 @@ public class vincenzo : MonoBehaviour
 
  }
 
+
+
     void Update(){
         float direction = Input.GetAxis("Horizontal");
  
@@ -99,12 +101,33 @@ public class vincenzo : MonoBehaviour
                 throwFire = true;
                 fireScript.GetComponent<Fire>().fireMove();
                 Invoke("changeIsFireAttacking",0.4f);
+         }
 
 
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemyOne");
+            foreach(GameObject enemy in enemies)
+            {
+            if (enemy.GetComponent<Renderer>().isVisible)
+                {
+                Vector3 enemypos = enemy.transform.position;
+                if(enemypos.x<transform.position.x+9 && enemypos.x> transform.position.x-9 )
+                    GameObject.Destroy(enemy);
+                }
+            }
         }
 
 
+        
+
+
     }
+
+
+
+
+
 
     private  void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.tag == "ground"){
@@ -139,6 +162,12 @@ public class vincenzo : MonoBehaviour
 
 
     }
+
+        private  void OnCollisionExit2D(Collision2D collision){
+        if(collision.gameObject.tag == "enemyOne"){
+            anim.SetBool("IsHurting", false);
+        }
+        }
     
     private void endcrush(){
         panel.SetActive(true);
