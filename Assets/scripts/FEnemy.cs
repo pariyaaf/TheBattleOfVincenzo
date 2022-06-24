@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FEnemy : MonoBehaviour
 {   
@@ -12,6 +13,8 @@ public class FEnemy : MonoBehaviour
     private Animator animenemy;
     public GameObject player;
     private Vector2 playerPos;
+    //maryam
+    public Text testText;
 
   
 
@@ -20,12 +23,8 @@ public class FEnemy : MonoBehaviour
     {
         rotation = transform.eulerAngles;
         animenemy = GetComponent<Animator>();
-
         //pariya
-       // vcode = GetComponent<Vincenzo>();
-
-
-        
+       // vcode = GetComponent<Vincenzo>();  
     }
 
     void Update()
@@ -46,41 +45,26 @@ public class FEnemy : MonoBehaviour
             transform.eulerAngles = rotation;
         }
     }
+
     //pariya
      private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Vincenzo") {
             animenemy.SetBool("ShesAttack" , true);
-           // if(vcode.anim.GetBool("IsFighting") == true){
-           // if(Vincenzo.isAtack == true){
-                //maryam
 
-            //    animenemy.SetBool("ShesDie",true);
-             //   Invoke("killEnmey",1f);
-     //   }
-
-
-        }
-        else if(collision.gameObject.tag == "Vincenzo"  )
-        {
-                        animenemy.SetBool("ShesAttack" , false);
-
-        }
+           }
     }
-
     void OnCollisionExit2D(Collision2D other) {
         if (other.gameObject.tag == "Vincenzo") {
             animenemy.SetBool("ShesAttack" , false);
         }
     }
-                //maryam
+    //maryam
     public void DieEnemy(){
             animenemy.SetBool("ShesAttack",false);
             animenemy.SetBool("ShesDie",true);
-            Invoke("killEnmey",0.1f);
+            Invoke("killEnmey",3f);
        }
-    
-
-    private void destroyEnmey()
+    private void killEnmey()
     {
         Destroy(gameObject);
     }

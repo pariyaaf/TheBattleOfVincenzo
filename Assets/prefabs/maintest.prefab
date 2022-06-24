@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1638273961019482561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4, y: -5.7, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 0.525515}
+  m_LocalScale: {x: 1, y: 1, z: 0.525515}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -119,7 +119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fameleEnemy: {fileID: 0}
-  isDrectionRight: 1
   fireScript: {fileID: 0}
   tunder: {fileID: 0}
   panel: {fileID: 0}
@@ -128,6 +127,11 @@ MonoBehaviour:
   speed: 8
   anim: {fileID: 0}
   jump: 15
+  AttackNumber: 0
+  HurtNumber: 0
+  helthNum: 5
+  helthText: {fileID: 0}
+  test: {fileID: 0}
 --- !u!50 &7851087332810267528
 Rigidbody2D:
   serializedVersion: 4

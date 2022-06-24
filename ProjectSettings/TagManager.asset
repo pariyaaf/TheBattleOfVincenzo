@@ -12,6 +12,8 @@ TagManager:
   - DragonBody
   - BlockEnemy
   - BlackEnemy
+  - MainEnemyHead
+  - MainEnemyBody
   layers:
   - Default
   - TransparentFX

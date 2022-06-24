@@ -13,11 +13,14 @@ public class Vincenzo : MonoBehaviour
 //pariya22om
 public GameObject fameleEnemy;
 
-    private GameObject[] enemies; GameObject[] dragons; GameObject[] blackenemies;
+    private GameObject[] enemies;
+    GameObject[] dragons;
+    GameObject[] blackenemies;
 
 
     //از خودم اینو میزنم برای انیکه متناسسب با اینکه فالس یا ترو هست بیاد جهت حرکت اتیش رو مشخص کنه
-    public bool isDrectionRight = true;
+        public static bool isDrectionRight = false;
+
 
 
     public GameObject fireScript;
@@ -25,6 +28,7 @@ public GameObject fameleEnemy;
     public static  bool throwFire = false;
     //pariya
     public GameObject tunder;
+    private bool disable = false;
     
 
     //sounds
@@ -42,6 +46,8 @@ public GameObject fameleEnemy;
     public float speed = 5; 
     private Rigidbody2D rb;
 
+   //public GameObject swordCollider;
+
     [HideInInspector] 
     public Animator anim;
     private Vector3 rotation;
@@ -50,6 +56,14 @@ public GameObject fameleEnemy;
     //jump
     private bool isGrounded = false;
     public float jump = 5;
+
+
+    //maryam - کم شدن جون کاراکتر با شمشیر خوردن و برخورد به دراگون
+    public int AttackNumber = 0;
+    public int HurtNumber = 0;
+    public int helthNum = 5;
+    public Text helthText, test;
+    bool i = false;
 
 
   
@@ -69,9 +83,15 @@ public GameObject fameleEnemy;
 
  }
 
-
-
     void Update(){
+        
+        // کد کم شدن جون کاراکتر با ضربه شمشیر انمی زن
+        // if(i == true){
+        //     Invoke("increasedAttackNumber",5f);
+        //     if(AttackNumber>=5)
+        //         DecreasedHealthDueEnemy1();
+                        
+        //         }
 
         float direction = Input.GetAxis("Horizontal");
 
@@ -95,27 +115,27 @@ public GameObject fameleEnemy;
                     isDrectionRight = true;
         }
 
-
-
         if(isGrounded == false) 
           anim.SetBool("IsJumping",true);  
         if(isGrounded == true) 
            anim.SetBool("IsJumping",false);
 
-        
-
         if((Input.GetKeyDown(KeyCode.Space) && (isGrounded == true))){  
+            FindObjectOfType<AudioManager>().Play("vincenzojumping");
+
             rb.AddForce(Vector2.up * jump , ForceMode2D.Impulse);
             isGrounded = false;
             anim.SetBool("IsHurting",false);
         }
 
-
         if(Input.GetKeyDown(KeyCode.Return)){  
                 if(anim.GetBool("IsHurting") == true)
                     anim.SetBool("IsHurting",false);
 
+            FindObjectOfType<AudioManager>().Play("Sword");
+
                 anim.SetBool("IsFighting",true);
+                //swordCollider.SetActive(true);
                 Invoke("changeIsFighting",1f);
         }
 
@@ -123,12 +143,13 @@ public GameObject fameleEnemy;
                 anim.SetBool("fireAttack",true);
                 throwFire = true;
                 fireScript.GetComponent<Fire>().fireMove();
-                Invoke("changeIsFireAttacking",0.4f);
+                Invoke("changeFireAttacking",0.4f);
          }
 
-
-        if(Input.GetKeyDown(KeyCode.T))
+        if(Input.GetKeyDown(KeyCode.T) && disable == false)
         {
+
+            FindObjectOfType<AudioManager>().Play("Thunder");
 
             foreach(GameObject enemy in enemies)
             {
@@ -164,49 +185,72 @@ public GameObject fameleEnemy;
                 }
                 Invoke("endTunder",1f);
             }
+            disable = true;
         }
 
-
-        
-
-
     }
-
-
 
     private  void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.tag == "ground"){
             isGrounded = true;
-        } 
+        }
+         if(collision.gameObject.tag == "MainEnemyBody"){
+                anim.SetBool("IsHurting",true);
+            }
+
+       
     }
-        //
+
     private  void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "coin"){
             Destroy(other.gameObject);
-
         }
+        
+
 
         if(other.gameObject.tag == "enemyOne"){
             if(anim.GetBool("IsFighting") == false){
+                FindObjectOfType<AudioManager>().Play("vincenzoHurting");
+
                 anim.SetBool("IsHurting",true);
-                //score--
+
+                i = true;
+
+                // while(anim.GetBool("IsFighting")){
+                //     Invoke("increasedAttackNumber",5f);
+                //     if(AttackNumber>=5)
+                //         DecreasedHealthDueEnemy1();
+                // }
             }
+                    
+            
+
+        
             else if(anim.GetBool("IsFighting") == true){
+                FindObjectOfType<AudioManager>().Play("FenemyDead");
+
             anim.SetBool("IsHurting",false);
+            i = false;
 
             //maryam22om
             fameleEnemy.GetComponent<FEnemy>().DieEnemy();
             }
-       }
-
+       
 
        //22om
         if(other.gameObject.tag == "DragonBody"){
             anim.SetBool("IsHurting",true);
-        }
+            HurtNumber++;
+            if(HurtNumber==3)
+                DecreasedHealthDueDragon();
+            
+        }}
+
 
 
          if(other.gameObject.tag == "BlackEnemy"){
+            FindObjectOfType<AudioManager>().Play("vincenzoDying");
+
             anim.SetBool("IsDead",true);
               foreach(GameObject enemy in enemies){
                     GameObject.Destroy(enemy);
@@ -230,13 +274,11 @@ public GameObject fameleEnemy;
             if(collision.gameObject.tag == "DragonBody"){
                 anim.SetBool("IsHurting", false);
             }
+         //    if(collision.gameObject.tag == "MainEnemyBody"){
+          //      anim.SetBool("IsHurting",false);
+          //  }
         }
 
-   
-
-
-
-    
     private void endcrush(){
         panel.SetActive(true);
         anim.SetBool("IsDead",false);
@@ -246,9 +288,10 @@ public GameObject fameleEnemy;
 
     private void changeIsFighting(){
         anim.SetBool("IsFighting",false);
+      //  swordCollider.SetActive(false);
     }
 
-     private void changeIsFireAttacking(){
+     private void changeFireAttacking(){
         anim.SetBool("fireAttack",false);
     }
 
@@ -262,4 +305,65 @@ public GameObject fameleEnemy;
 
     }
 
+    //maryam
+    public void increasedAttackNumber(){
+        AttackNumber++;
+    }
+    public void DecreasedHealthDueEnemy1(){
+        helthNum--;
+        AttackNumber = 0;
+        switch(helthNum)
+{
+    case 0:
+        helthText.text = "0";
+        anim.SetBool("isDead",false);
+        Destroy(gameObject);
+    break;
+    case 1:
+        helthText.text = "1";
+    break;
+    case 2:
+        helthText.text = "2";
+    break;
+    case 3:
+        helthText.text = "3";
+    break;
+    case 4:
+        helthText.text = "4";
+    break;
+    case 5:
+        helthText.text = "5";
+    break;
+    default:
+        helthText.text = "warning!";
+    break;
+}
+    }
+    public void DecreasedHealthDueDragon(){
+        helthNum--;
+        switch(helthNum)
+{
+    case 0:
+        helthText.text = "0";
+    break;
+    case 1:
+        helthText.text = "1";
+    break;
+    case 2:
+        helthText.text = "2";
+    break;
+    case 3:
+        helthText.text = "3";
+    break;
+    case 4:
+        helthText.text = "4";
+    break;
+    case 5:
+        helthText.text = "5";
+    break;
+    default:
+        helthText.text = "warning!";
+    break;
+}
+    }
     }

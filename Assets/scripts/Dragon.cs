@@ -41,6 +41,8 @@ public class Dragon : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Vincenzo") {
+            FindObjectOfType<AudioManager>().Play("DragonDead");
+
             anim.SetBool("die" , true);
             Invoke("DragonDestroy", 0.7f);
             
