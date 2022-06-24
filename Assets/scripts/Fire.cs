@@ -7,7 +7,7 @@ public class Fire : MonoBehaviour
     public GameObject vincenzoObj, fire;
     public Vector3 vincenzoPos;
         private Rigidbody2D rb;
-        private bool throwFire = vincenzo.throwFire;
+        private bool throwFire = Vincenzo.throwFire;
 
 
 

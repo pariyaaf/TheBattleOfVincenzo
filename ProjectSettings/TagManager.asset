@@ -7,6 +7,11 @@ TagManager:
   - ground
   - enemyOne
   - enemyTwo
+  - Vincenzo
+  - DragonHead
+  - DragonBody
+  - BlockEnemy
+  - BlackEnemy
   layers:
   - Default
   - TransparentFX
