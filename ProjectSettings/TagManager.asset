@@ -14,6 +14,7 @@ TagManager:
   - BlackEnemy
   - MainEnemyHead
   - MainEnemyBody
+  - WinFlag
   layers:
   - Default
   - TransparentFX

@@ -197,6 +197,10 @@ public GameObject fameleEnemy;
          if(collision.gameObject.tag == "MainEnemyBody"){
                 anim.SetBool("IsHurting",true);
             }
+        if(collision.gameObject.tag == "WinFlag"){
+          //  FindObjectOfType<AudioManager>().Play("vincenzoHurting");
+            Invoke("goToMainMenu",1f);
+            }
 
        
     }
@@ -299,6 +303,13 @@ public GameObject fameleEnemy;
         anim.SetBool("UseTunder",false);
         tunder.SetActive(false);
     }
+
+    private void goToMainMenu()
+    {
+                    SceneManager.LoadScene("MainMenu");
+
+    }
+    
 
     private void ReloadLevel(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

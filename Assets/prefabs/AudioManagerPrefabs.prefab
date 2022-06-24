@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3754648621719517444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2257721737160057503}
+  - component: {fileID: 3234975081354847347}
+  m_Layer: 0
+  m_Name: AudioManagerPrefabs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2257721737160057503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3754648621719517444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.606128, y: -4.2075357, z: -10.271545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3234975081354847347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3754648621719517444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b96db8c5f6d0ce40a5a801c650d3d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Environment1
+    clip: {fileID: 0}
+    volume: 1.32
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Environment2
+    clip: {fileID: 8300000, guid: 6cd85dd2fb25079479d7e8ad3e1b96ed, type: 3}
+    volume: 1.89
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: FenemyDead
+    clip: {fileID: 8300000, guid: 4d9e12d9f78ad0a489e228a8396e3411, type: 3}
+    volume: 1.84
+    pitch: 0.9
+    loop: 0
+    source: {fileID: 0}
+  - name: DragonDead
+    clip: {fileID: 8300000, guid: 5ae6212490fd59a48ba8fd4af9be16a8, type: 3}
+    volume: 1.04
+    pitch: 0.67
+    loop: 0
+    source: {fileID: 0}
+  - name: MainEnemyDead
+    clip: {fileID: 8300000, guid: 7dc7d2573304f824a9e23db853660ed9, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Thunder
+    clip: {fileID: 8300000, guid: cb95a1bf25b5e34458285e5697608c8e, type: 3}
+    volume: 2.05
+    pitch: 0.95
+    loop: 0
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: 3de6cdc4dca9bec419662495fb8b5569, type: 3}
+    volume: 1.23
+    pitch: 1.12
+    loop: 0
+    source: {fileID: 0}
+  - name: Sword
+    clip: {fileID: 8300000, guid: e73839ae082f78b45992aacd60570885, type: 3}
+    volume: 2.4
+    pitch: 1.23
+    loop: 0
+    source: {fileID: 0}
+  - name: vincenzoDying
+    clip: {fileID: 8300000, guid: 7dc7d2573304f824a9e23db853660ed9, type: 3}
+    volume: 1.65
+    pitch: 1.07
+    loop: 0
+    source: {fileID: 0}
+  - name: vincenzoHurting
+    clip: {fileID: 8300000, guid: 3894df2685a13464b8f4964bfcf406c5, type: 3}
+    volume: 1.65
+    pitch: 2.48
+    loop: 0
+    source: {fileID: 0}
+  - name: vincenzojumping
+    clip: {fileID: 8300000, guid: deaef50efe20b02469454cb2f714872f, type: 3}
+    volume: 0.11
+    pitch: 0.93
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: d065930a1e6a4814fb2bbcfd03ac2eae, type: 3}
+    volume: 5
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}

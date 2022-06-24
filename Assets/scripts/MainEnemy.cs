@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MainEnemy : MonoBehaviour
 {
@@ -57,8 +59,12 @@ public class MainEnemy : MonoBehaviour
 
                     if(lifecount>0)
                     {
-                        Instantiate(vincenzochar,new Vector3 (10,10,-10) , Quaternion.identity);
+                        Instantiate(vincenzochar,new Vector3 (5,10,-10) , Quaternion.identity);
                         lifecount--;
+
+                    }
+                    else{
+                        Invoke("GoMainMenu",3f);
                     }
                                         }
   }
@@ -67,6 +73,13 @@ public class MainEnemy : MonoBehaviour
     {
         speed = 10;
     }
+    private void GoMainMenu()
+{
+    SceneManager.LoadScene(2);
+
+}
+
+
 
     
 }

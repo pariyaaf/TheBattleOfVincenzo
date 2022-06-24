@@ -17,7 +17,7 @@ public class BlockEnemy : MonoBehaviour
         if (ground == true)
             {
             ground = false;
-            rb.AddForce(Vector2.up * Random.Range(1f,12f) , ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * Random.Range(5f,12f) , ForceMode2D.Impulse);
             Invoke("jumping",5);
         }
 
