@@ -1,11 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//
-using System.Collections;
 
-
-public class Dragon : MonoBehaviour
+public class DragonBody : MonoBehaviour
 {
 
     
@@ -14,8 +11,6 @@ public class Dragon : MonoBehaviour
     public float links;
     private Vector3 rotation;
     private Animator anim;
-        public GameObject headchild;
-
 
     void Start()
     {
@@ -40,25 +35,6 @@ public class Dragon : MonoBehaviour
                 transform.eulerAngles = rotation - new Vector3(0,180,0);
         }
     }
+ 
 
-    void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag == "Vincenzo") {
-            FindObjectOfType<AudioManager>().Play("DragonDead");
-          //          headchild.transform.parent = transform;//////////////////////////////////////////
-
-           // Destroy(transform.GetChild(0));
-           // GameObject.FindGameObjectsWithTag("DragonBody").GetComponent<DragonKill>();
-
-
-            //anim.SetBool("die" , true);
-            //Invoke("DragonDestroy", 0.7f);
-            
-            }
-
-
-     }
-   //            private void DragonDestroy(){
-//Destroy(gameObject);
-  //  }
-   
 }

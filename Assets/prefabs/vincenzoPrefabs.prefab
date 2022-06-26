@@ -119,10 +119,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd4b9cc5ac081cc4187edbd789df9a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fameleEnemy: {fileID: 0}
+  fameleEnemy: {fileID: 4147842923726660014, guid: ceebd8993e6f7be419435c72d7723a37, type: 3}
   fireScript: {fileID: 0}
   tunder: {fileID: 0}
-  panel: {fileID: 0}
+  Winpanel: {fileID: 0}
+  Losepanel: {fileID: 7754216241641021710, guid: b92ad39ea47751b428845ed049afac6c, type: 3}
   scoreText: {fileID: 0}
   killDragonLight: {fileID: 0}
   speed: 8
@@ -131,8 +132,13 @@ MonoBehaviour:
   AttackNumber: 0
   HurtNumber: 0
   helthNum: 5
-  helthText: {fileID: 0}
-  test: {fileID: 0}
+  healthNum: 5
+  imgScore0: {fileID: 0}
+  imgScore1: {fileID: 0}
+  imgScore2: {fileID: 0}
+  imgScore3: {fileID: 0}
+  imgScore4: {fileID: 0}
+  imgScore5: {fileID: 0}
 --- !u!50 &5901947280095072241
 Rigidbody2D:
   serializedVersion: 4

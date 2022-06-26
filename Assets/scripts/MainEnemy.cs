@@ -8,7 +8,7 @@ public class MainEnemy : MonoBehaviour
 {
 //buster age
 
-    private int lifecount =2;
+    private int lifecount =0;
 
     public AnimationCurve curve;
 
@@ -20,7 +20,19 @@ public class MainEnemy : MonoBehaviour
     public  Animator animMainEnemy;
 
     public GameObject deadLight;
+    private GameObject tmplight;
     public GameObject vincenzochar;
+        public GameObject Losepanel;
+
+    //for  clone vincenzo
+   // private Rigidbody2D vinRb;
+    //private Vincenzo VinScript;
+    //private Collider2D colliders ;
+
+
+    
+        [SerializeField]
+        private List<GameObject> vinlist = new List<GameObject>();
 
      void Start()
     {
@@ -28,6 +40,14 @@ public class MainEnemy : MonoBehaviour
         links = transform.position.x - links;
         rotation = transform.eulerAngles;
         animMainEnemy = GetComponent<Animator>();
+
+        //for clone vincelzo
+
+
+        //vinRb = vincenzochar.GetComponent<Rigidbody2D>();
+        ///VinScript = vincenzochar.GetComponent<Vincenzo>();
+       // colliders = vincenzochar.GetComponent<Collider2D>();
+        
     }
 
     void Update()
@@ -54,17 +74,26 @@ public class MainEnemy : MonoBehaviour
     }
    private  void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Vincenzo"){
-                        Instantiate(deadLight, transform.position , Quaternion.identity);
+                     tmplight =   Instantiate(deadLight, transform.position , Quaternion.identity);
+                        Invoke("Destroylight",1f);
                     Destroy(other.gameObject);
 
-                    if(lifecount>0)
+                    if(lifecount<3)
                     {
-                        Instantiate(vincenzochar,new Vector3 (5,10,-10) , Quaternion.identity);
-                        lifecount--;
+                //  GameObject x = Instantiate(vincenzochar,new Vector3 (5,10,-10) , Quaternion.identity);
+                // Vector3 vinClonSlace = x.transform.localScale;
+                  //vinClonSlace.y = 0.6f;
+                  //vinClonSlace.x = 0.6f;
+                  //x.transform.localScale = vinClonSlace;
+
+                        vinlist[lifecount].SetActive(true);
+
+                        lifecount++;
 
                     }
                     else{
-                        Invoke("GoMainMenu",3f);
+                        Losepanel.SetActive(true);
+                        Time.timeScale=0;
                     }
                                         }
   }
@@ -77,6 +106,10 @@ public class MainEnemy : MonoBehaviour
 {
     SceneManager.LoadScene(2);
 
+
+}
+private void Destroylight(){
+    Destroy(tmplight);
 }
 
 
