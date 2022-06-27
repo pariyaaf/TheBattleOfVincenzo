@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
 
-    public GameObject MenuPanel, winPanel;
+    public GameObject MenuPanel, winPanel, vin;
     void Start()
     {
         
@@ -66,4 +66,5 @@ public class MainMenu : MonoBehaviour
     public void btnReset(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
 }

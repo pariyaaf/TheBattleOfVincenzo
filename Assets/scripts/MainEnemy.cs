@@ -22,7 +22,10 @@ public class MainEnemy : MonoBehaviour
     public GameObject deadLight;
     private GameObject tmplight;
     public GameObject vincenzochar;
-        public GameObject Losepanel;
+    public GameObject Losepanel;
+    int healthNum = 5;
+
+    public GameObject imgScore0, imgScore1, imgScore2, imgScore3, imgScore4, imgScore5;
 
     //for  clone vincenzo
    // private Rigidbody2D vinRb;
@@ -74,18 +77,16 @@ public class MainEnemy : MonoBehaviour
     }
    private  void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Vincenzo"){
+            DecreasedHealthDueMainEnemy();
                      tmplight =   Instantiate(deadLight, transform.position , Quaternion.identity);
+                                             FindObjectOfType<AudioManager>().Play("vincenzoDying");
+
                         Invoke("Destroylight",1f);
+
                     Destroy(other.gameObject);
 
-                    if(lifecount<3)
+                    if(lifecount<4)
                     {
-                //  GameObject x = Instantiate(vincenzochar,new Vector3 (5,10,-10) , Quaternion.identity);
-                // Vector3 vinClonSlace = x.transform.localScale;
-                  //vinClonSlace.y = 0.6f;
-                  //vinClonSlace.x = 0.6f;
-                  //x.transform.localScale = vinClonSlace;
-
                         vinlist[lifecount].SetActive(true);
 
                         lifecount++;
@@ -105,15 +106,51 @@ public class MainEnemy : MonoBehaviour
     private void GoMainMenu()
 {
     SceneManager.LoadScene(2);
-
-
 }
 private void Destroylight(){
     Destroy(tmplight);
 }
+public void DecreasedHealthDueMainEnemy(){
+        healthNum--;
+        switch(healthNum){
+    case 0:
+        setActiveFalse();
+        imgScore0.SetActive(true);
+        
+    break;
+    case 1:
+        setActiveFalse();
+        imgScore1.SetActive(true);
 
-
-
-    
+    break;
+    case 2:
+        setActiveFalse();
+        imgScore2.SetActive(true);
+    break;
+    case 3:
+        setActiveFalse();
+        imgScore3.SetActive(true);
+    break;
+    case 4:
+        setActiveFalse();
+        imgScore4.SetActive(true);
+    break;
+    case 5:
+        setActiveFalse();
+        imgScore5.SetActive(true);
+    break;
+    default:
+        setActiveFalse();
+    break;
+}
+}
+public void setActiveFalse(){
+        imgScore0.SetActive(false);
+        imgScore1.SetActive(false);
+        imgScore2.SetActive(false);
+        imgScore3.SetActive(false);
+        imgScore4.SetActive(false);
+        imgScore5.SetActive(false);
+    }
 }
 

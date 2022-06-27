@@ -35,6 +35,7 @@ public class komak : MonoBehaviour
         if(vinatackCount==0)
         {
             
+
             winPanel.SetActive(true);
             Invoke("changescale",1.1f);
 
@@ -53,15 +54,19 @@ public class komak : MonoBehaviour
             if(lastEnemy.animMainEnemy.GetBool("MainEnemyhurting")!=true)
             {
             lastEnemy.animMainEnemy.SetBool("MainEnemyhurting",true);
-            vinatackCount -=1;
+
+            vinatackCount -=1;////////////////////////////////////
             enemylifemethod();
             if(vinatackCount>0){
+            FindObjectOfType<AudioManager>().Play("MainEnemyHurting");
             Invoke("changetoIdle",1f);
             }
             else if( vinatackCount==0) {
             lastEnemy.animMainEnemy.SetBool("MainEnemyDying",true);
+                        FindObjectOfType<AudioManager>().Play("MainEnemyDead");
+
             MainEnemyrb.simulated = false;
-enemyHead.SetActive(false);
+            enemyHead.SetActive(false);
             }
 
             }

@@ -14,7 +14,6 @@ public class FEnemy : MonoBehaviour
     public GameObject player;
     private Vector2 playerPos;
     //maryam
-    public Text testText;
 
   
 
