@@ -14,6 +14,9 @@ TagManager:
   - BlackEnemy
   - MainEnemyHead
   - MainEnemyBody
+  - WinFlag
+  - Sword
+  - EndLevel
   layers:
   - Default
   - TransparentFX

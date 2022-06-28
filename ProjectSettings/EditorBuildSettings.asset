@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 38337acee476f2c4b9bb73cbf316e780
+  - enabled: 1
+    path: Assets/Scenes/Triler.unity
+    guid: 23290f486ab89c24ab08c9c43edc4d62
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 4feeae5ebbdd8d14190c41a178034e28
   - enabled: 1
@@ -23,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/L5.unity
     guid: 23fffb4b6d3eeed489a9ffe5542f4587
+  - enabled: 1
+    path: Assets/Scenes/Levels/L6.unity
+    guid: 24e0eb0222d8b354085ae8486c3ae25a
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 0d32641899b6d0d4da86ee025000cb90
   m_configObjects: {}
